@@ -1,7 +1,8 @@
-# https://gist.github.com/nagae/3009185
+# based on https://gist.github.com/nagae/3009185
 require 'formula'
 
 class Ddskk < Formula
+  description 'Daredevil SKK(Simple Kana to Kanji conversion program)'
   homepage 'http://openlab.ring.gr.jp/skk/'
   url 'http://openlab.ring.gr.jp/skk/maintrunk/ddskk-15.2.tar.gz'
   sha256 '0d334c072a5eb3725173b398fce4839217d53e32c624653b5aca14a008788b9c'
